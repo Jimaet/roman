@@ -7,7 +7,7 @@ const amount = document.getElementById('amount');
 const convertBtn = document.getElementById('convertBtn');
 const result = document.getElementById('result');
 
-const currencies = ['USD', 'EUR', 'RUB', 'GBP', 'JPY', 'CNY', 'AUD', 'CAD']; 
+const currencies = ['USD', 'EUR', 'RUB']; 
 
 currencies.forEach(currency => {
     const option1 = document.createElement('option');
